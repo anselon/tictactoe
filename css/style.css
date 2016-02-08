@@ -1,7 +1,7 @@
 h1{
 	text-align: center;
 }
-#board-container{
+#game-container{
     height: 350px;
     width: 350px;
     background-color:none;
@@ -10,7 +10,8 @@ h1{
     margin-right: auto;
 
 }
-#game-board{
+
+#gameboard{
     width: 354px;
     height: 354px;
     background-color:none;

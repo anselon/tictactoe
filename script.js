@@ -1,4 +1,5 @@
-$(document).ready (function(){
+
+/*$(document).ready (function(){
 	game = new TicTacToeGame();
 	$('.board-square').click(function(){ 
 		game.takeTurn(event);
@@ -22,7 +23,7 @@ function TicTacToeGame(){
 }
 
 TicTacToeGame.prototype.switchPlayers = function(){
-	this.currentPlayerIndex = (this.currentPlayerIndex == 0) ? 1 : 0;
+	this.currentPlayerIndex = (this.currentPlayerIndex === 0) ? 1 : 0;
 	
 }
 
@@ -47,7 +48,6 @@ TicTacToeGame.prototype.takeTurn = function (event) {
 	
 		
 }
-
 
 
 TicTacToeGame.prototype.checkForWinnerOrTie = function(event){
@@ -141,4 +141,4 @@ TicTacToeGame.prototype.checkDiags = function(){
 }
 
 
-
+*/
