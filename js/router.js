@@ -2,9 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'models/game/GameModel',
-    'views/games/GameView'
-    ], function($,_,Backbone, GameModel, GameView){
+    'views/HomeView'
+    ], function($,_,Backbone, HomeView){
         var AppRouter = Backbone.Router.extend({
             routes: {
 
@@ -19,9 +18,8 @@ define([
 
    
             app_router.on('route:defaultAction', function(actions){
-                var myGame = new GameModel();
-                var gameView = new GameView({model: myGame});
-                gameView.render();
+                homeView = new HomeView({el: '#content' });
+                homeView.render();
                
             });
 

@@ -8,7 +8,7 @@ define([
 	var initialize = function(){
 		Router.initialize();
 
-	}
+	};
 	//return function to be used by other modules (export)
 	return {
 		initialize: initialize
